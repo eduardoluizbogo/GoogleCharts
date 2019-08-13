@@ -28,12 +28,12 @@ public class Chart {
 		 
 		    gravarArq.printf("<html>\r\n" + 
 		   	"  <head>\r\n" + 
-		    	"    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n" + 
+		    "    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n" + 
 		   	"    <script type=\"text/javascript\">\r\n" + 
 		 	"      google.charts.load('current', {'packages':['corechart']});\r\n" + 
-		        "      google.charts.setOnLoadCallback(drawChart);\r\n" + 
-		        "\r\n" + 
-		        "      function drawChart() {\r\n" + 
+		    "      google.charts.setOnLoadCallback(drawChart);\r\n" + 
+		    "\r\n" + 
+		    "      function drawChart() {\r\n" + 
 		   	"\r\n" + 
 		   	"        var data = google.visualization.arrayToDataTable([\r\n" + 
 		   	"          ['Turmas', 'Notas'],\r\n" + 
